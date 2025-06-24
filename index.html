@@ -1,27 +1,20 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> My Profile1 </title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/8a02d012c0.js" crossorigin="anonymous"></script>
-    <body>
-   <div id="box1">
-    <img src="https://via.placeholder.com/100" alt="Profile Picture" style="border-radius: 50%; margin-top: 10px;">
-    <h2><b>JOHN CENA</b></h2>
-    <p>Programmer</p>
-    <p>Passionate programmer with great experience and dedication in developing apps and coding.</p>
-    <p><b>SKILLS</b></p>
-   <div class="skills">
-    <div class="skillbox">Java</div>
-    <div class="skillbox">C</div>
-    <div class="skillbox">C++</div>
-   </div>
-  
-   <div class="icons">
-    <p><i class="fa-brands fa-instagram"  ></i> <i class="fa-brands fa-twitter"></i> 
-    <a href="https://github.com/Aravind14170"><i class="fa-brands fa-github"></i></a></p>
-   </div>
+</head>
+<body>
+    <div class="todo">
+        <h1>To do list</h1>
+        <div class="input">
+            <input type="text" id="taskinput" placeholder="Enter a task">
+            <button onclick="addtask()">Add</button>
+        </div>
+        <ul id="tasklist"></ul>
     </div>
-    </body>
+    <script src="script.js"></script>
+</body>
 </html>
